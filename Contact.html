@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF_8">
+        <meta name="viewport" content="width = device - width, initial-scale = 1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"
+        <title></title>
+        <style>
+            p{
+                color : rgb(246, 246, 246);
+                font-size: 20px;
+                width: large;
+            }
+            h1{
+                color : black;
+                font-size: 60px;
+                text-align: center;
+            }
+            h2{
+                color : black;
+                font-size: 40px;
+                text-align: center;
+            }
+            #mainpoint{
+                font-size: 36px;
+                font-weight: bold;
+                /*background-color: rgb(150, 211, 46);*/
+                opacity: .9;
+            }
+            
+            /*VERY GOOD WAY TO ELIMINATE REPPETETIVE DECLARATION*/
+            p,div{
+                color : rgb(241, 244, 241);
+                
+            }
+            /*.highlight{ background-color: rgb(180, 227, 132);} */
+            p.highlight{
+                font-style: italic;
+            }
+            /*.highlight.mainpoint{background-color: rgb(43, 61, 13);} */
+            section>h2{
+                color :rgb(239, 240, 233);
+            }
+            section li{
+                color :rgb(238, 239, 232);
+            }
+            a:link{
+                text-decoration:dotted;
+                color:rgb(236, 239, 238);
+                display: block;
+            }
+            a:visited{
+                text-decoration: dashed;
+                color:rgb(240, 244, 243);
+            }
+            
+            /*header li{
+                font-size: large;
+                cursor: pointer;
+            }*/
+            html{
+                height: 100%;
+                width: 100%;
+            }
+            body{
+                width: 100%;
+                height: 100%;
+                size: 100% 100%;
+                position: top;
+            }
+            .nav{
+                position: fixed;
+                top: 0;
+                width: 100%;
+                padding: 0px;
+                background-color: rgba(0, 0,0, 0.43);
+                list-style-type: none;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                
+            }
+            
+            .container{ 
+                margin-left: auto;
+                margin-right: auto;
+                width: 104px;
+            }
+            /*a{  
+                display: inline-block;
+                color:rgb(234, 243, 237);
+                font-family: Arial, Helvetica, sans-serif;
+            }*/
+            .nav a:hover, a:active{
+                display: inline-block;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+            }
+            .nav li{
+                
+                /*padding-block-start: 20px;*/
+                
+                padding-block: 20px;
+                display: inline-block;
+                text-decoration:none;
+                font-size: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            
+            
+            .element {
+            font-size: 20px;
+            background-color: skyblue;
+            border-radius: 10px;
+            box-shadow: 6px 25px 25px rgba(0, 0, 0, 0.5);
+            padding: 40px,40px;
+            position: absolute;
+            top: 60,5%;
+            left: 35%;
+            right: 35%;
+            height: 200px;
+            text-align: center
+            
+            }
+            
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        
+        <div>
+            <img src="https://www.bejaia-guidedepoche.com/images/logos_pub/2537/fromage-ibarissen.jpg"  width="100%" height="350px" object-fit: cover position: top;>
+            <header>
+                
+               <ul class="nav">   
+                    <li><a href="#" ><b> FROMAGE IBARISSEN</b></a></li>
+        
+                    <li><a href="C:\Users\utilisateur\Desktop\Type script\TypeScript\HTML\Acceuil.html">Acceuil</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="C:\Users\utilisateur\Desktop\Type script\TypeScript\HTML\Recettes.html">Recettes</a></li>
+                    <li><a href="https://www.express-dz.com/2019/05/12/entretien-avec-mekbel-said-proprietaire-de-la-fromagerie-ibarissen/">Press</a></li>
+                    <li><a href="C:\Users\utilisateur\Desktop\Type script\TypeScript\HTML\Contact.html">Contact</a></li>
+                    
+                </ul>
+            </header>
+            
+        </div>
+        <main style="color: white;"> 
+            <div >
+                <article  class ="element"> 
+                    <h3>Contacter-nous</h3>
+                    <!--<img src="https://www.president.fr/wp-content/themes/President/img/email-icon.png"
+                    >
+                    <i class="fa-thin fa-phone"></i>
+                    -->
+                    <i class="fa fa-phone" style="font-size:48px;"></i>  <p style=" font-size: large;">07 77 77 77 77 </p>  
+                    <!--<i class="fa fa-envelope" style="font-size:40px;"></i> <p style=" font-size: large;">mmellisamekbel@gmail.com</p>
+                    -->
+                    
+                </article>
+            </div>
+        </main>
+        <footer> 
+            <p></p> 
+         </footer>
+    </body>
+
+</html>
